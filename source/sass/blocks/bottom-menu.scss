@@ -1,0 +1,32 @@
+.bottom-menu {
+  display: flex;
+  margin-top: auto;
+  position: relative;
+  margin-bottom: 20px;
+  span {
+    flex-basis: 50%;
+  }
+  a {
+    font-size: 25px;
+    color: #333333;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s;
+    @media (max-width: 540px) {
+      font-size: 18px;
+    }
+    @media (max-width: 539px) {
+      font-size: 16px;
+    }
+    &:hover {
+      background-color: $red;
+      color: #ffffff;
+      padding-left: 30px;
+      padding-right: 90px;
+      @media (max-width: 539px) {
+        padding-right: 33px;
+      }
+    }
+  }
+}

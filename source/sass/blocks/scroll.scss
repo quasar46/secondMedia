@@ -1,0 +1,8 @@
+.scroll {
+  position: absolute;
+  left: -40px;
+  max-height: calc(100vh - 400px);
+  @media (max-width: 768px) {
+    max-height: calc(100vh - 280px);
+  }
+}

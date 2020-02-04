@@ -1,0 +1,11 @@
+.right-banner {
+  flex: 1 0 auto;
+  background-color: #ccc;
+  margin-top: 200px;
+  width: 30%;
+  height: 775px;
+  margin-left: 30px;
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}

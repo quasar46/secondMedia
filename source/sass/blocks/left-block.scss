@@ -1,0 +1,19 @@
+.left-block {
+  position: relative;
+  flex: 1 0 248px;
+  margin-right: 20px;
+  @media (max-width: 768px) {
+    flex: 0 1 248px;
+    margin-right: 0;
+  }
+}
+
+.left-block__banner {
+  position: relative;
+  margin-top: 200px;
+  height: calc(100vh - 200px);
+  background-color: #e6e6e6;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

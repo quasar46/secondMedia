@@ -1,0 +1,28 @@
+.center-block {
+  display: flex;
+  &--first {
+    margin-top: 200px;
+    @media (max-width: 768px) {
+      margin-top: 20px;
+    }
+  }
+  &--wrap {
+    flex-wrap: wrap;
+  }
+}
+
+.center-block__title {
+  position: absolute;
+  top: 70px;
+  font-size: 58px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  @media (max-width: 768px) {
+    top: 220px;
+    font-size: 30px;
+    margin-left: auto;
+  }
+  @media (max-width: 539px) {
+    font-size: 25px;
+  }
+}

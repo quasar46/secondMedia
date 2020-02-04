@@ -1,0 +1,19 @@
+.item-wrapper {
+  flex: 0 1 33.33%;
+  margin-bottom: 60px;
+  @media (max-width: 1400px) {
+    flex: 0 1 50%;
+  }
+  @media (max-width: 920px) {
+    flex: 0 1 100%;
+  }
+  @media (max-width: 768px) {
+    flex: 0 1 50%;
+  }
+  @media (max-width: 540px) {
+    flex: 0 1 100%;
+  }
+  @media(max-width: 539px) {
+    margin-bottom: 30px;
+  }
+}

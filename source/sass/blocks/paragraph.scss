@@ -1,0 +1,16 @@
+.paragraph {
+  font-size: 18px;
+  margin-bottom: 20px;
+  @media (max-width: 540px) {
+    font-size: 16px;
+  }
+  &--mod {
+    border-left: 11px solid $red;
+    padding-left: 20px;
+  }
+  &--fill {
+    background-color: #b3b3b3b3;
+    padding: 20px;
+    color: #fff;
+  }
+}

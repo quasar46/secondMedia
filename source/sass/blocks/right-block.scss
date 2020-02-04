@@ -1,0 +1,8 @@
+.right-block {
+  flex: 1 0 93px;
+  @media (max-width: 768px) {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

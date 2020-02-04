@@ -1,0 +1,15 @@
+.wrapper {
+  width: 100%;
+  @media (max-width: 768px) {
+    flex-grow: 1;
+  }
+}
+
+.wrapper--flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper--row {
+  display: flex;
+}

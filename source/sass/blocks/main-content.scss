@@ -1,0 +1,43 @@
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-content__date {
+  position: sticky;
+  writing-mode: vertical-lr;
+  top: 10px;
+  color: #bfbfbf;
+  font-size: 30px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  display: block;
+  height: 300px;
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  top: 50px;
+  margin-right: 30px;
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
+  &--desktop {
+    display: block;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  &--mobile {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+      margin-right: 5px;
+      top: 100px;
+    }
+    @media (max-width: 539px) {
+      margin-right: 0;
+      font-size: 20px;
+    }
+  }
+}
